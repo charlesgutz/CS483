@@ -47,6 +47,9 @@
     <Compile Include="Aula1\1-Tipos\Tipos.cs" />
     <Compile Include="Aula1\2-TiposInteiros\TiposInteiros.cs" />
     <Compile Include="Aula1\3-PontoFlutuante\PontoFlutuante.cs" />
+    <Compile Include="Aula1\4-Boolean\Booleano.cs" />
+    <Compile Include="Aula1\5-Structs\BeerS.cs" />
+    <Compile Include="Aula1\5-Structs\Structs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

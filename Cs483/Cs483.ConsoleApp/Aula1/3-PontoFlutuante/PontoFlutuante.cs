@@ -14,13 +14,18 @@ namespace Cs483.ConsoleApp.Aula1._3_PontoFlutuante
 
             Float();
             Double();
+            Decimal();
+
+            ExibirPontoFlutuante();
+
+        }
+
+        private static void Decimal()
+        {
             decimal salario = 1050.00m;
             decimal salarioAdicional = 581.00m;
             decimal somaSalario = salario + salarioAdicional;
             Console.WriteLine($"Salario professor: {salario} + Adicional {salarioAdicional} = {somaSalario}");
-
-            ExibirPontoFlutuante();
-
         }
 
         private static void Double()
