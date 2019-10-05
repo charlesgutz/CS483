@@ -10,26 +10,27 @@ namespace Cs483.ConsoleApp.Aula1._4_Boolean
     {
         public void Executa()
         {
-            Console.WriteLine("Boolean");
-            double a = 10;
-            double b = 20;
-            double resultado = a + b;
-            Console.WriteLine($"Valor igual: {(resultado==30)}");
+            Console.WriteLine("Booleano");
 
-            ExibeBoolean();
+            double a = 10.10;
+            double b = 20.20;
+            double resultado = a + b;
+            Console.WriteLine(resultado);
+            Console.WriteLine($"Valor resultado = 30.30 - { resultado == 30.30} ");
+
+            //ExibeBoolean();
+
         }
 
         private static void ExibeBoolean()
         {
-            Console.WriteLine("Boolean");
             double a = 10;
             double b = 20;
             double resultado = a + b;
-            Console.WriteLine($"Valor igual: {resultado}");
-            //bool checagem = resultado == 30;
-            //string checagem = resultado == 30 ? "Sim" : "Não";
-            Console.WriteLine($"Valor resultado = 30 - { (resultado == 30 ? "Sim" : "Não") }");
-            Console.WriteLine($"Valor resultado = 30 - { (resultado == 30) }");
+            Console.WriteLine($"Valor igual {resultado}");
+
+            Console.WriteLine($"Valor resultado = 30 - { resultado == 30} ");
+            Console.WriteLine($"Valor resultado = 30 - { (resultado == 30 ? "Sim" : "Não") } ");
         }
     }
 }

@@ -11,57 +11,55 @@ namespace Cs483.ConsoleApp.Aula1._2_TiposInteiros
         public void Executa()
         {
             Console.WriteLine("Tipos Inteiros");
-
             Conversoes();
             ExibeTiposInteiro();
+
         }
 
         private static void Conversoes()
         {
-            char l = 'C';
+            char l = 'M';
             int n = l;
             Console.WriteLine($"Letra: {n}");
 
             int idM = 381;
             byte idade = (byte)idM;
-            Console.WriteLine($"Idade Cliente: {idade}");
+            Console.WriteLine($"Idade Maykon: {idade}");
         }
 
         private void ExibeTiposInteiro()
         {
-            // ===== char => Char
-            Console.WriteLine($"Valor Minimo : {char.MinValue}");
-            Console.WriteLine($"Valor Maximo : {char.MaxValue}");
+            //==== char => Char
+            Console.WriteLine($"Valor minimo : {char.MinValue}");
+            Console.WriteLine($"Valor maximo : {char.MaxValue}");
 
-            // ===== byte => Byte
-            Console.WriteLine($"Valor Minimo : {byte.MinValue}");
-            Console.WriteLine($"Valor Maximo : {byte.MaxValue}");
-            // ===== sbyte => Sbyte
-            Console.WriteLine($"Valor Minimo : {sbyte.MinValue}");
-            Console.WriteLine($"Valor Maximo : {sbyte.MaxValue}");
+            //==== byte => Byte
+            Console.WriteLine($"Valor minimo : {byte.MinValue}");
+            Console.WriteLine($"Valor maximo : {byte.MaxValue}");
+            //==== byte => SByte
+            Console.WriteLine($"Valor minimo : {sbyte.MinValue}");
+            Console.WriteLine($"Valor maximo : {sbyte.MaxValue}");
+
+            //==== short => Int16
+            Console.WriteLine($"Valor minimo : {short.MinValue}");
+            Console.WriteLine($"Valor maximo : {short.MaxValue}");
+            //==== ushort => UInt16
+            Console.WriteLine($"Valor minimo : {ushort.MinValue}");
+            Console.WriteLine($"Valor maximo : {ushort.MaxValue}");
+
+            //==== int => Int32
+            Console.WriteLine($"Valor minimo : {int.MinValue}");
+            Console.WriteLine($"Valor maximo : {int.MaxValue}");
+            //==== uint => UInt32
+            Console.WriteLine($"Valor minimo : {uint.MinValue}");
+            Console.WriteLine($"Valor maximo : {uint.MaxValue}");
             
-            // ===== short => Int16
-            Console.WriteLine($"Valor Minimo : {short.MinValue}");
-            Console.WriteLine($"Valor Maximo : {short.MaxValue}");
-            // ===== ushort => UInt16
-            Console.WriteLine($"Valor Minimo : {ushort.MinValue}");
-            Console.WriteLine($"Valor Maximo : {ushort.MaxValue}");
-
-            // ===== int => Int32
-            Console.WriteLine($"Valor Minimo : {int.MinValue}");
-            Console.WriteLine($"Valor Maximo : {int.MaxValue}");
-            // ===== uint => UInt32
-            Console.WriteLine($"Valor Minimo : {uint.MinValue}");
-            Console.WriteLine($"Valor Maximo : {uint.MaxValue}");
-
-            // ===== long => Int64
-            Console.WriteLine($"Valor Minimo : {long.MinValue}");
-            Console.WriteLine($"Valor Maximo : {long.MaxValue}");
-            // ===== ulong => UInt64
-            Console.WriteLine($"Valor Minimo : {ulong.MinValue}");
-            Console.WriteLine($"Valor Maximo : {ulong.MaxValue}");
-
-
+            //==== long => Int64
+            Console.WriteLine($"Valor minimo : {long.MinValue}");
+            Console.WriteLine($"Valor maximo : {long.MaxValue}");
+            //==== ulong => UInt64
+            Console.WriteLine($"Valor minimo : {ulong.MinValue}");
+            Console.WriteLine($"Valor maximo : {ulong.MaxValue}");
         }
     }
 }

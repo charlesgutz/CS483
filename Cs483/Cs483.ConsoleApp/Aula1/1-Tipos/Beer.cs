@@ -11,9 +11,11 @@ namespace Cs483.ConsoleApp.Aula1._1_Tipos
         public string Graduacao { get; set; }
         public string Cor { get; set; }
         public int IBU { get; set; }
+
         public override string ToString()
         {
             return $"{Graduacao} - {Cor} - {IBU}";
         }
+
     }
 }

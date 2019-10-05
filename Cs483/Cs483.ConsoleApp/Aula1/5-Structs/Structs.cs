@@ -16,8 +16,8 @@ namespace Cs483.ConsoleApp.Aula1._5_Structs
             Tipos tipos = new Tipos();
             tipos.ExibeCervejas();
             ExibeCervejasS();
-        }
 
+        }
         public void ExibeCervejasS()
         {
             Console.WriteLine("Beer Struct");
@@ -30,16 +30,16 @@ namespace Cs483.ConsoleApp.Aula1._5_Structs
             b2.Cor = "Clara";
             b2.IBU = 15;
 
-
-            Console.WriteLine($"BeerS1 : {b.ToString()} ");
-            Console.WriteLine($"BeerS2 : {b2.ToString()} ");
+            Console.WriteLine($"Beer1 : { b.ToString() } ");
+            Console.WriteLine($"Beer2 : { b2.ToString() } ");
 
             b2 = b;
             b.Graduacao = "50%";
             b.Cor = "Escura";
             b.IBU = 25;
-            Console.WriteLine($"BeerS1 : {b.ToString()} ");
-            Console.WriteLine($"BeerS2 : {b2.ToString()} ");
+            Console.WriteLine($"Beer1 : { b.ToString() } ");
+            Console.WriteLine($"Beer2 : { b2.ToString() } ");
         }
     }
+
 }
